@@ -1,0 +1,118 @@
+.feedbackTitleStyle {
+  color: #384bff;
+  font-size: 12px;
+}
+.feedbackTitleStyle2 {
+  font-size: 30px;
+  color: #171524;
+}
+
+.feedbackContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  width: 35%;
+}
+.feedbackContainer2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #384bff;
+  border-radius: 12px;
+  width: 35%;
+}
+.iconContainer {
+  display: flex;
+}
+.iconColor {
+  color: gold;
+}
+.profileInfoContainer {
+  display: flex;
+}
+.personInfoContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+.feedbackGeneralContainer {
+  display: flex;
+  gap: 30px;
+}
+.infornatioonStyle {
+  color: gray;
+}
+.informationStyling {
+  color: white;
+  font-weight: bold;
+}
+.shaoeStyle {
+  background-color: #384bff;
+  width: 163px;
+  height: 25px;
+  border-radius: 12px;
+  margin-top: 3rem;
+  transform: translate(18rem, -2rem);
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .feedbackTitleStyle,
+  .feedbackTitleStyle2 {
+    margin-left: 9rem;
+    text-wrap: nowrap;
+  }
+  .feedbackGeneralContainer {
+    flex-direction: column;
+  }
+  .feedbackContainer {
+    display: none;
+  }
+  .feedbackContainer2 {
+    margin-left: 15rem;
+    width: 255px;
+  }
+  .shaoeStyle {
+    margin-left: -1rem;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .feedbackTitleStyle,
+  .feedbackTitleStyle2 {
+    margin-left: 9rem;
+    text-wrap: nowrap;
+  }
+  .feedbackGeneralContainer {
+    flex-direction: column;
+  }
+  .feedbackContainer {
+    display: none;
+  }
+  .feedbackContainer2 {
+    margin-left: 12rem;
+    width: 300px;
+  }
+  .shaoeStyle {
+    margin-left: -2.3rem;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .feedbackTitleStyle,
+  .feedbackTitleStyle2 {
+    margin-left: 9rem;
+    text-wrap: nowrap;
+  }
+  .feedbackGeneralContainer {
+    flex-direction: column;
+  }
+  .feedbackContainer {
+    display: none;
+  }
+  .feedbackContainer2 {
+    margin-left: 12rem;
+    width: 300px;
+  }
+  .shaoeStyle {
+    margin-left: -2.3rem;
+  }
+}

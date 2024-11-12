@@ -1,0 +1,224 @@
+.heroContainer {
+  background-color: #384bff;
+  width: 100%;
+}
+.heroImgContainer {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.secondBtnStyle button {
+  background-color: #384bff;
+  cursor: pointer;
+  color: white;
+  width: 283px;
+  height: 35px;
+  border-radius: 16px;
+  border: 1px solid white;
+}
+.iconStyle {
+  font-size: 22px;
+}
+.parStyle p {
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+}
+.parStyle {
+  font-size: 12px;
+  color: white;
+}
+.firstPart {
+  display: flex;
+  flex-direction: column;
+}
+.secondPart {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.2rem;
+}
+.contentStyle {
+  display: flex;
+  margin-top: 3rem;
+}
+.thirdBtnStyle {
+  background: transparent;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  border-radius: 16px;
+  border: 1px solid white;
+  width: 180px;
+  height: 55px;
+  margin-top: 3rem;
+}
+.thirdIconStyle {
+  margin-left: 12px;
+}
+.imgContainer {
+  margin-top: 3rem;
+  width: 310px;
+  height: 53px;
+  display: flex;
+}
+.titleContainer {
+  display: flex;
+}
+.titleDecoration {
+  color: white;
+  transform: translate(27px, 0px);
+}
+.iconStyling {
+  color: green;
+  font-size: 22px;
+}
+.partContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconContainer span {
+  display: flex;
+}
+.contentContainer {
+  display: flex !important;
+  flex-direction: column;
+}
+.parDecoration {
+  transform: translate(-42px, 16px);
+  color: white;
+}
+
+.secondParDecoration {
+  color: white;
+}
+.fourthIconStyle {
+  color: gold;
+  font-size: 15px;
+}
+.imgStyle {
+  margin-left: 1rem;
+}
+.virtivalDecoration {
+  display: flex;
+  flex-direction: column;
+}
+.heroContainer div {
+  display: flex;
+}
+.brandPhotoStyle {
+  width: 150px;
+  height: 88px;
+  margin-left: 8px;
+}
+.heroShapeStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(370px, 10px);
+}
+.brandContainer {
+  display: flex;
+}
+/* responsive */
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .heroContainer {
+    width: 800px;
+  }
+  .heroImgContainer img {
+    display: none;
+  }
+  .verticalStyling {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 10rem;
+  }
+  .parStyle {
+    text-align: left;
+    font-size: 30px;
+  }
+  .contentStyle {
+    flex-direction: column;
+  }
+  .thirdBtnStyle {
+    height: 113px;
+    font-size: 30px;
+    width: 260px;
+  }
+  .heroImgContainer {
+    flex-direction: column;
+  }
+  .partContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .contentFulContainer img {
+    display: none;
+  }
+  .cultureAmpContainer img {
+    display: none;
+  }
+  .airTableContainer img {
+    display: none;
+  }
+  .rozorParyContainer img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .heroContainer {
+    width: 800px;
+  }
+  .heroImgContainer img {
+    display: none;
+  }
+  .verticalStyling {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 10rem;
+  }
+  .parStyle {
+    text-align: left;
+    font-size: 30px;
+  }
+  .contentStyle {
+    flex-direction: column;
+  }
+  .thirdBtnStyle {
+    height: 113px;
+    font-size: 30px;
+    width: 260px;
+  }
+  .heroImgContainer {
+    flex-direction: column;
+  }
+  .partContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .contentFulContainer img {
+    display: none;
+  }
+  .cultureAmpContainer img {
+    display: none;
+  }
+  .airTableContainer img {
+    display: none;
+  }
+  .rozorParyContainer img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  .heroContainer {
+    width: 800px;
+  }
+  .parStyle {
+    text-align: left;
+    font-size: 18px;
+  }
+  .brandContainer {
+    gap: 60px;
+  }
+}

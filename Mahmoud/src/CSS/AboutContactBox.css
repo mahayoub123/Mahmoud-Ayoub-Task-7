@@ -1,0 +1,41 @@
+.coulmnStyling {
+  display: flex;
+  flex-direction: column;
+}
+.ContactBoxflexDecoration {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.rowStyling {
+  display: flex;
+  background-color: #384bff;
+  border-radius: 16px;
+  width: 1400px;
+  height: 50px;
+  gap: 100px;
+}
+.boxTitleStyle {
+  color: white;
+  font-size: 12px;
+}
+.iconBoxStyling {
+  color: #384bff;
+}
+.bgStyling {
+  background-color: white;
+  border-radius: 50%;
+}
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  .rowStyling {
+    display: flex;
+    flex-direction: column;
+    height: 256px;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    margin-top: 1.5rem;
+    margin-left: 0rem;
+    gap: 18px;
+  }
+}

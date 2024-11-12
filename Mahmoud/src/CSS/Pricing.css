@@ -1,0 +1,192 @@
+.priceTitleStyle {
+  color: #384bff;
+  font-size: 18px;
+}
+.priceImgStyle {
+  transform: translate(23rem, 0rem);
+}
+.pricingTextStyle {
+  color: #171524;
+  font-size: 42px;
+  font-weight: bold;
+}
+.rowDecoration {
+  display: flex;
+  justify-content: center;
+}
+.iconSize {
+  width: 150px;
+  height: 48px;
+  transform: translate(-7px, -4px);
+}
+.PricingBtn {
+  background: transparent;
+  cursor: pointer;
+  width: 100px;
+  height: 32px;
+  background-color: #384bff;
+  color: white;
+  border-radius: 12px;
+}
+.secondPricingBtn {
+  background: transparent;
+  cursor: pointer;
+  width: 100px;
+  height: 32px;
+  border-radius: 12px;
+  color: blue;
+}
+.thirdPricingBtn {
+  background: transparent;
+  cursor: pointer;
+  width: 100px;
+  height: 32px;
+  border-radius: 12px;
+  border: none;
+  color: blue;
+}
+.planStyle {
+  background-color: azure;
+  border: 1px solid gray;
+  border-radius: 12px;
+  width: 50%;
+}
+.PlanContainer {
+  display: flex;
+  background-color: #384bff;
+  color: white;
+  border-radius: 12px;
+  width: 90%;
+}
+.planContentStyle {
+  display: flex;
+  flex-direction: column;
+}
+.verticalContent {
+  display: flex;
+  flex-direction: column;
+}
+.planContentDecoration {
+  display: flex;
+}
+.text {
+  font-size: 18px;
+  text-wrap: nowrap;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+}
+.icon {
+  font-size: 15px;
+  color: green;
+}
+
+.icon2 {
+  font-size: 15px;
+  color: red;
+}
+.btnPlan {
+  background: transparent;
+  border-radius: 18px;
+  background-color: white;
+  border-color: white;
+  color: #384bff;
+  height: 60px;
+}
+.plansContainer {
+  display: flex;
+  gap: 22px;
+  width: 60%;
+}
+.PlanContainer2 {
+  display: flex;
+  background-color: #18185e;
+  color: white;
+  border-radius: 12px;
+  width: 90%;
+}
+.btnPlan2 {
+  background: transparent;
+  border-radius: 18px;
+  background-color: #18185e;
+  color: white;
+  border-color: white;
+  height: 60px;
+}
+/* responsive */
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .priceTitleStyle,
+  .pricingTextStyle,
+  .rowDecoration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 22rem;
+  }
+  .secondPhotoStyle img {
+    display: none;
+  }
+  .PlanContainer,
+  .PlanContainer2 {
+    width: 367px;
+  }
+  .btnPlan,
+  .btnPlan2 {
+    margin-left: -2rem;
+    width: 8rem;
+    height: 4.3rem;
+  }
+  .plansContainer {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 12rem;
+  }
+  .planStyle {
+    width: 262%;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .priceTitleStyle,
+  .pricingTextStyle,
+  .rowDecoration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 22rem;
+  }
+  .secondPhotoStyle img {
+    display: none;
+  }
+  .PlanContainer,
+  .PlanContainer2 {
+    width: 403px;
+  }
+  .btnPlan,
+  .btnPlan2 {
+    margin-left: -2rem;
+    width: 8rem;
+    height: 4.3rem;
+  }
+  .plansContainer {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 12rem;
+  }
+  .planStyle {
+    width: 158%;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  .priceTitleStyle,
+  .pricingTextStyle,
+  .rowDecoration {
+    margin-left: 30rem;
+  }
+  .plansContainer {
+    margin-left: 12rem;
+  }
+}

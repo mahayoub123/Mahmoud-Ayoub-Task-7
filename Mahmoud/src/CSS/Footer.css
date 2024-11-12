@@ -1,0 +1,92 @@
+.footerVerticalDecoration {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footerStyle {
+  width: 826px;
+}
+.linksStyling {
+  display: flex;
+}
+.footerlinksContainer {
+  display: flex;
+  background-color: #18185e;
+  margin-top: 0.2rem;
+  gap: 17px;
+  height: 222px;
+  width: 1400px;
+}
+.footerImgContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.speachContainer {
+  transform: translate(0rem, 0rem);
+}
+.speachContainer2 {
+  display: flex;
+  flex-direction: column-reverse;
+  transform: translate(-11rem, -3rem);
+}
+.inputStyle {
+  display: flex;
+}
+.formBtnStyle {
+  background: transparent;
+  background-color: #384bff;
+  color: white;
+  width: 38px;
+  height: 40px;
+}
+.linkStyle {
+  text-decoration: unset;
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  text-wrap: nowrap;
+}
+.footerTextStyle {
+  color: white;
+  font-size: 12px;
+}
+.footerTextStyle2 {
+  color: gray;
+  font-size: 9px;
+}
+.footerIconStyle {
+  color: white;
+}
+.linkStyle2 {
+  font-size: 20px;
+  border: 1px solid white;
+  margin-left: 20px;
+}
+.privcyStyle {
+  display: flex;
+  transform: translate(-1rem, -2rem);
+}
+.linkStyle2 a {
+  color: white;
+}
+.copyRightsContainer {
+  background-color: #384bff;
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+}
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  .footerPhotoStyle img {
+    display: none;
+  }
+  .footerlinksContainer {
+    width: 728px;
+  }
+  .speachContainer2 {
+    transform: translate(-5rem, -1rem);
+  }
+  .copyRightsContainer {
+    width: 732px;
+  }
+}

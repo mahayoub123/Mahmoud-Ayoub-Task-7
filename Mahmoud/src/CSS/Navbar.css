@@ -1,0 +1,99 @@
+.navStyle {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.linkStyle {
+  list-style: none;
+}
+.linkStyle a {
+  color: black;
+  text-decoration: unset;
+}
+.linksContainer ul {
+  display: flex;
+}
+
+.linksContainer ul li a {
+  margin-left: 2rem;
+}
+
+.buttonStyle button {
+  background: transparent;
+  cursor: pointer;
+  background-color: #384bff;
+  color: white;
+  width: 118px;
+  height: 40px;
+  border-radius: 20px;
+}
+.iconStyle {
+  font-size: 22px;
+}
+.menuIcon {
+  display: none;
+  font-size: 25px;
+}
+.secondIconStyle {
+  color: #384bff;
+  font-size: 35px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .menuIcon {
+    display: block;
+    font-size: 30px;
+    color: #384bff;
+  }
+  .navStyle {
+    justify-content: space-between;
+  }
+  .navStyle ul {
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+  .navStyle ul.open {
+    display: block;
+  }
+  .navStyle ul li {
+    text-align: center;
+    font-size: 25px;
+  }
+  .buttonStyle button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .menuIcon {
+    display: block;
+    font-size: 30px;
+    color: #384bff;
+  }
+  .navStyle {
+    justify-content: space-between;
+  }
+  .navStyle ul {
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+  .navStyle ul.open {
+    display: block;
+  }
+  .navStyle ul li {
+    text-align: center;
+    font-size: 25px;
+  }
+  .buttonStyle button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  .navStyle ul li {
+    text-align: center;
+    font-size: 25px;
+  }
+}

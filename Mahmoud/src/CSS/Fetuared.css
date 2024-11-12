@@ -1,0 +1,117 @@
+.fetuaredTitleStyle {
+  color: #384bff;
+  font-size: 12px;
+  text-align: left;
+}
+.fetuaredTitleStyle2 {
+  color: #171524;
+  font-size: 30px;
+  text-align: left;
+}
+.feturedContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.arrowIconStyle {
+  border-radius: 50%;
+  background-color: #384bff;
+  color: white;
+  font-size: 20px;
+}
+.arrowIconStyle2 {
+  border-radius: 50%;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 20px;
+}
+.blogCardContainer,
+.blogCardContainer2 {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  border-radius: 12px;
+}
+.cardTitleContainer {
+  display: flex;
+  gap: 20px;
+}
+.personalProfileContainer {
+  display: flex;
+  margin-top: 3rem;
+  gap: 30px;
+}
+
+.blogImgStyle img {
+  width: 200px;
+  height: 200px;
+}
+.blogImgStyle2 img {
+  width: 200px;
+  height: 200px;
+}
+.blogsContainer {
+  display: flex;
+  gap: 30px;
+}
+.cardParStyle {
+  color: #384bff;
+  font-size: 12px;
+  text-align: left;
+}
+.dateStyle {
+  color: gray;
+  font-size: 14px;
+}
+.cardParStyle2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.infoBlogStyle {
+  font-size: 10px;
+  font-weight: bold;
+}
+.infoBlogStyle2 {
+  font-weight: bold;
+  color: gray;
+  font-size: 10px;
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .blogsContainer {
+    flex-direction: column;
+    width: 800px;
+  }
+  .blogImgStyle2 img {
+    width: 800px;
+  }
+  .blogImgStyle {
+    display: none;
+  }
+  .cardParStyle2 {
+    margin-left: -41rem;
+  }
+  .cardTitleContainer {
+    margin-left: -6rem;
+  }
+  .blogCardContainer {
+    display: none;
+  }
+  .blogCardContainer2 {
+    margin-left: 9rem;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .blogsContainer {
+    flex-direction: column;
+    width: 600px;
+  }
+  .blogImgStyle2 img {
+    width: 600px;
+  }
+  .blogImgStyle {
+    display: none;
+  }
+  .blogCardContainer {
+    display: none;
+  }
+}
